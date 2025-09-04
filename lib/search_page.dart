@@ -156,6 +156,7 @@ class _SearchPageState extends State<SearchPage> {
     super.dispose();
   }
 
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
