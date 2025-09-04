@@ -18,7 +18,7 @@ class _SearchPageState extends State<SearchPage> {
   List<String> trendGifs = [];
   bool isLoading = false;
   bool hasMore = true;
-  int currentOffset = 0; // Add offset tracking
+  int currentOffset = 0;
   final int limit = 25;
   final ScrollController _scrollController = ScrollController();
 
